@@ -1,9 +1,9 @@
 
 
 # CHANGES:
-    packaging option error [fix](https://stackoverflow.com/questions/44954122/more-than-one-file-was-found-with-os-independent-path-lib-x86-libusb-so)
-    
-    react native build [fix](https://github.com/facebook/react-native/issues/35210#issuecomment-1304536693)
+
+- packaging option error [fix](https://stackoverflow.com/questions/44954122/more-than-one-file-was-found-with-os-independent-path-lib-x86-libusb-so)
+- react native build [fix](https://github.com/facebook/react-native/issues/35210#issuecomment-1304536693)
     
 
 
