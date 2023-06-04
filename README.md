@@ -6,6 +6,57 @@
 - react native build [fix](https://github.com/facebook/react-native/issues/35210#issuecomment-1304536693)
     
 
+## Steps:
+
+In `example` folder execute:
+
+`npm install`
+
+`export NODE_OPTIONS=--openssl-legacy-provider`
+
+because: https://stackoverflow.com/a/69699772/10478535
+
+`react-native start`
+
+In separate terminal window:
+
+Run `adb devices` and get your device id
+
+```
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+react-native run-android --deviceId=DEVICE_ID
+```
+
+
+## Env
+
+jdk8-openjdk, java 1.8.0_372
+
+npm 8.19.2
+
+nodejs v20.2.0
+
+## Useful links
+
+
+React Native: 
+
+https://reactnative.dev/docs/running-on-device
+
+https://reactnative.dev/docs/environment-setup?package-manager=yarn&guide=native
+
+Java on archlinux:
+
+https://rtfm.co.ua/en/arch-linux-set-a-java-version/
+
+https://wiki.archlinux.org/title/java
+
+https://youtu.be/M70Xebbj4Qk
+
+==========================================================================
 
 # Original Readme
 
