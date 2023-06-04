@@ -1,8 +1,14 @@
-<div align="right">
-<img align="right" src="docs/demo.gif">
-</div>
 
-# vision-camera-ocr
+
+# CHANGES:
+    packaging option error [fix](https://stackoverflow.com/questions/44954122/more-than-one-file-was-found-with-os-independent-path-lib-x86-libusb-so)
+    
+    react native build [fix](https://github.com/facebook/react-native/issues/35210#issuecomment-1304536693)
+    
+
+
+# Original Readme
+
 
 A [VisionCamera](https://github.com/mrousavy/react-native-vision-camera) Frame Processor Plugin to preform text detection on images using [**MLKit Vision** Text Recognition](https://developers.google.com/ml-kit/vision/text-recognition).
 
